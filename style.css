@@ -23,16 +23,39 @@ body {
   align-items: center;
 }
 
-.hero {
-  width: 100%;
+li {
+  padding: 16px;
+}
+
+.hero-container {
   background-color: #1f2937;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.information-container {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 80%;
   padding: 24px;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 128px;
 }
 
 .column {
@@ -40,10 +63,18 @@ body {
   flex-direction: column;
 }
 
+.card {
+  text-align: center;
+  width: 200px;
+  height: auto;
+  margin: 16px;
+}
+
 .main-text {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 96px 0px;
 }
 
 .header-logo {
@@ -70,6 +101,7 @@ body {
   align-items: center;
   background-color: #fff;
   color: #1f2937;
+  margin-bottom: 128px;
 }
 
 .information-header {
@@ -81,7 +113,7 @@ body {
 }
 
 .quote {
-  width: 100%;
+  width: 80%;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
@@ -90,20 +122,64 @@ body {
   padding: 64px 128px;
 }
 
+.action-container {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .action {
-  border-radius: 8px;
   background-color: #3882f6;
-  padding: 64px 128px;
+  width: 80%;
+  margin: 64px auto;
+  padding: 32px 64px;
+  border-radius: 8px;
+}
+
+.action .row {
+  padding: 12px 24px;
 }
 
 .btn {
+  margin: 16px;
   border-radius: 8px;
   border: none;
   width: 128px;
   background-color: #3882f6;
-  padding: 12px 24px;
+  padding: 8px 16px;
   color: #fff;
   font-family: inherit;
   font-size: 18px;
   font-weight: 700;
+}
+
+.white-border {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 32px 64px;
+  background-color: #1f2937;
+}
+
+.right-bold {
+  color: #1f2937;
+  font-style: normal;
+  text-align: right;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.margin-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column .btn {
+  margin-left: 0;
 }
