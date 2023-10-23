@@ -14,8 +14,8 @@ button {
 }
 
 .center-padding {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 body {
@@ -45,6 +45,7 @@ header {
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 .hero-body {
@@ -106,17 +107,81 @@ ul {
 
 .cards {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 400px;
-  height: 400px;
+  width: 200px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .card img {
-  width: 400px;
-  height: auto;
+  width: 200px;
+  height: 200px;
   border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 240px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  font-weight: 900;
+  font-size: 24px;
+  text-align: right;
+}
+
+.action {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.box {
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #f9faf8;
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box-text {
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px 120px;
+  font-size: 18px;
+}
+
+.box-button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f9faf8;
+  padding: 0 32px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  margin-left: auto;
 }
