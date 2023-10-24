@@ -29,7 +29,9 @@ nav {
   padding: 32px;
 }
 
-header {
+header,
+.hero,
+footer {
   background-color: #1f2937;
 }
 
@@ -40,7 +42,6 @@ header {
 }
 
 .hero {
-  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
@@ -73,7 +74,7 @@ header {
 button {
   background-color: #3882f6;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #f9faf8;
   padding: 8px 32px;
@@ -167,21 +168,14 @@ ul {
   font-weight: 300;
 }
 
+.box-button {
+  border: 3px solid #fff;
+  margin-left: auto;
+}
+
 footer {
-  background-color: #1f2937;
   color: #e5e7eb;
   text-align: center;
   padding: 40px 120px;
   font-size: 18px;
-}
-
-.box-button {
-  background-color: #3882f6;
-  font-size: 18px;
-  font-weight: 500;
-  color: #f9faf8;
-  padding: 0 32px;
-  border: 3px solid #fff;
-  border-radius: 8px;
-  margin-left: auto;
 }
